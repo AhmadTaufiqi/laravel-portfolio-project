@@ -12,7 +12,7 @@ class depanController extends Controller
     {
         $about_id = get_meta_value('_halaman_about');
         $about_data = halaman::where('id', $about_id)->first();
-
+// dump('test');
         $interest_id = get_meta_value('_halaman_interest');
         $interest_data = halaman::where('id', $interest_id)->first();
 
